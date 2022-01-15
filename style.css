@@ -1,0 +1,139 @@
+* {
+  margin-left: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: blueviolet;
+  font-family: "Poppins", sans-serif;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: crimson;
+}
+.navbar.sticky .menu li a:hover {
+  color: #fff;
+}
+
+.start {
+  position: absolute;
+  width: 582px;
+  height: 270px;
+  left: 220px;
+  top: 285px;
+}
+.start-h1 {
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h4 {
+  position: absolute;
+  left: 8.33%;
+  right: 56.6%;
+  top: 13.13%;
+  bottom: 85.03%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+
+  color: #3a3a3a;
+}
+
+.link-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 25px;
+
+  position: absolute;
+  width: 196px;
+  height: 44px;
+  left: 100px;
+  top: 300px;
+
+  background: #e02c6d;
+  border-radius: 41px;
+}
+
+.main-cemera {
+  position: absolute;
+  width: 440px;
+  height: 414px;
+  left: 1135px;
+  top: 211px;
+}
+.cercle {
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  left: 1133px;
+  top: 181px;
+
+  opacity: 70%;
+}
+/* section three start  */
+
+.popular-h1 {
+  position: absolute;
+  width: 262px;
+  height: 70px;
+  left: 788px;
+  top: 935px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  /* identical to box height, or 250% */
+
+  color: #3a3a3a;
+}
